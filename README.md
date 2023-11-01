@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [](https://github.com/EDGARTOYIN/faq-accordion-card-main/edit/main/README.md)
+- Live Site URL: [SOLUTION](https://edgartoyin.github.io/faq-accordion-card-main/)
 
 ## My process
 
@@ -58,9 +58,7 @@ I need to delve much deeper into learning how to position absolute elements.
 
 ### Useful resources
 
-- [Accordion trick](https://www.youtube.com/watch?v=B_n4YONte5A&ab_channel=KevinPowell) - This helped me to simply the way the text
+- [Accordion trick](https://www.youtube.com/watch?v=B_n4YONte5A&ab_channel=KevinPowell) - This helped me to simply the way the text was shown
 
 ## Author
-
-- Website - [EDGARTOYIN](https://www.your-site.com)
 - Frontend Mentor - [@EDGARTOYIN](https://www.frontendmentor.io/profile/EDGARTOYIN)
