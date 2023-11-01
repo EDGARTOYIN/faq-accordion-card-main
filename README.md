@@ -31,6 +31,8 @@ Users should be able to:
 ### Screenshot
 
 ### Links
+![s1desktop](https://github.com/EDGARTOYIN/faq-accordion-card-main/assets/57578565/d7ff4c73-3c14-4b26-b71d-ccfa9b1b6fee)
+![smobile](https://github.com/EDGARTOYIN/faq-accordion-card-main/assets/57578565/27f64b13-f75e-4e5c-9c54-1c98cea7d8c2)
 
 - Solution URL: [](https://github.com/EDGARTOYIN/faq-accordion-card-main/edit/main/README.md)
 - Live Site URL: [SOLUTION](https://edgartoyin.github.io/faq-accordion-card-main/)
