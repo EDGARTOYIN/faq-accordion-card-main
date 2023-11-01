@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body
+    class="font-default-ff from-soft-blue to-soft-violet grid min-h-screen place-items-center bg-gradient-to-t py-[10rem]"
+  >
+    <main
+      class="m-10 grid w-[90%] max-w-[20rem] gap-6 rounded-2xl bg-white pb-10 shadow-2xl lg:max-w-[63rem] lg:grid-cols-2 lg:overflow-hidden lg:p-10 lg:py-16"
+    >
+      <img
+        class="absolute top-[46%] z-20 hidden translate-x-[-8rem] lg:block"
+        src="./images/illustration-box-desktop.svg"
+        alt=""
+      />
+      <section class="relative">
+        <picture
+          class="flex h-[7rem] flex-col items-center lg:h-full lg:items-start lg:justify-center"
+        >
+          <source
+            media="(min-width: 1024px)"
+            srcset="./images/illustration-woman-online-desktop.svg"
+          />
+          <source srcset="/images/illustration-woman-online-mobile.svg" />
+          <img
+            class="w-3/4 max-w-[15rem] translate-y-[-60%] lg:min-w-[30rem] lg:translate-x-[-25%] lg:translate-y-[0px]"
+            src="./images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+        </picture>
+        <picture
+          class="absolute inset-0 m-auto w-3/4 max-w-[15rem] lg:min-w-[50rem] lg:translate-x-[-28rem] lg:translate-y-[-15rem]"
+        >
+          <source
+            media="(min-width: 1024px )"
+            srcset="./images/bg-pattern-desktop.svg"
+          />
+          <source srcset="./images/bg-pattern-mobile.svg" />
+          <img class="w-ful" src="./images/bg-pattern-desktop.svg" alt="" />
+        </picture>
+      </section>
+      <section>
+        <div class="m-auto grid w-5/6 gap-5">
+          <h2
+            class="text-very-dark-desaturated text-center text-3xl font-bold lg:text-left"
+          >
+            FAQ
+          </h2>
+          <ul class="text-sm">
+            <li>
+              <section class="container border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="title-q">How many team members can I invite</p>
+                  <div class="icon mr-1 transition-all">
+                    <img src="./images/icon-arrow-down.svg" alt="" />
+                  </div>
+                </div>
+                <section class="grid grid-rows-[0fr] transition-all">
+                  <p
+                    class="text-v-dark-blue-grayish text-v-dark-blue-grayish overflow-hidden"
+                  >
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section class="container border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="title-q">What is the maximum file upload size?</p>
+                  <div class="icon mr-1 transition-all">
+                    <img src="./images/icon-arrow-down.svg" alt="" />
+                  </div>
+                </div>
+                <section class="grid grid-rows-[0fr] transition-all">
+                  <p class="text-v-dark-blue-grayish overflow-hidden">
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </p>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section class="container border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="title-q">How do I reset my password?</p>
+                  <div class="icon mr-1 transition-all">
+                    <img src="./images/icon-arrow-down.svg" alt="" />
+                  </div>
+                </div>
+                <section class="grid grid-rows-[0fr] transition-all">
+                  <p class="text-v-dark-blue-grayish overflow-hidden">
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </p>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section class="container border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="title-q">Can I cancel my subscription?</p>
+                  <div class="icon mr-1 transition-all">
+                    <img src="./images/icon-arrow-down.svg" alt="" />
+                  </div>
+                </div>
+                <section class="grid grid-rows-[0fr] transition-all">
+                  <p class="text-v-dark-blue-grayish overflow-hidden">
+                    Yes! Send us a message and we'll process your request no
+                    questions asked.
+                  </p>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section class="container border-b py-3">
+                <div class="flex items-center justify-between">
+                  <p class="title-q">Do you provide additional support?</p>
+                  <div class="icon mr-1 transition-all">
+                    <img src="./images/icon-arrow-down.svg" alt="" />
+                  </div>
+                </div>
+                <section class="grid grid-rows-[0fr] transition-all">
+                  <p class="text-v-dark-blue-grayish overflow-hidden">
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </p>
+                </section>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
